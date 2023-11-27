@@ -1,0 +1,102 @@
+body {
+  background-image: url("https://getflywheel.com/wp-content/uploads/2015/08/free-blurred-backgrounds.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.googlemap {
+  height: 500px;
+  width: 500px;
+}
+
+.units {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-search {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 105px 5px;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.weather-container {
+  background-color: #94bcdb;
+  opacity: 0.8;
+  color: black;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 3px 14px rgba(0, 0, 0, 0.6);
+}
+
+.weather-container button {
+  background-color: #fcdac0;
+  border: 1px solid #fcdac0;
+  margin: 5px 0px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.weather-container button:hover {
+  background-color: #ffa666;
+  color: white;
+  transition: 0.6s;
+}
+
+.weather-container input,
+select {
+  border-radius: 3px;
+  border: 0px;
+  padding: 5px 5px;
+  text-align: center;
+  background-color: #e5f4fd;
+}
+
+.weather-container h2 {
+  color: white;
+}
+
+.weather-container p {
+  margin: 8px 0px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px; /* Adjust the width as needed */
+  margin: 20px auto; /* Center the table */
+  background-color: rgba(252, 218, 192, 0.3);
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+th {
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  font-weight: bold;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(252, 218, 192, 0.3);
+}
